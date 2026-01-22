@@ -15,7 +15,7 @@ class Students {
     public static void main(String[] args) {
 
         Students s1 = new Students(101, "Aastha");
-        Students s2 = new Students(101, "Aastha");
+        Students s2 = new Students(102, "vikash");
 
         if (s1.equals(s2))
             System.out.println("Students are equal");

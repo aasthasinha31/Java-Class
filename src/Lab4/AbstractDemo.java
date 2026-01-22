@@ -10,7 +10,7 @@ abstract class Student {
     abstract void course();
 }
 
-class Kiitian extends Student {
+    class Kiitian extends Student {
 
     void course() {
         System.out.println("Course - B.Tech. (Computer Science & Engg)");
@@ -21,10 +21,12 @@ public class AbstractDemo {
     public static void main(String[] args) {
 
         Kiitian k = new Kiitian();
-        k.getinput(2205180, 1234567890L);
+        k.getinput(24052599, 1234567890L);
 
-        System.out.println("Rollno - 2205180");
+        System.out.println("Rollno - 24052599");
         System.out.println("Registration no - 1234567890");
         k.course();
     }
 }
+
+
